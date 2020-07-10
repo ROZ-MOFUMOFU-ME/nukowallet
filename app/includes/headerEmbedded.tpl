@@ -2,9 +2,9 @@
 <html lang="en" ng-app="mewApp">
 <head>
   <meta charset="utf-8">
-  <title>NukoWallet.com</title>
-  <link rel="canonical" href="http://www.nukowallet.com" />
-  <meta name="description" content="NukoWallet.com is a free, open-source, client-side interface for generating Nukonium wallets &amp; more. Interact with the Nukonium blockchain easily &amp; securely. Double-check the URL ( .com ) before unlocking your wallet.">
+  <title>wallet.nekonium.site</title>
+  <link rel="canonical" href="https://wallet.nekonium.site" />
+  <meta name="description" content="wallet.nekonium.site is a free, open-source, client-side interface for generating Nukonium wallets &amp; more. Interact with the Nukonium blockchain easily &amp; securely. Double-check the URL ( .site ) before unlocking your wallet.">
   <meta name="author" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/etherwallet-master.min.css">

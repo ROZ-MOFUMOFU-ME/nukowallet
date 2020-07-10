@@ -16,7 +16,7 @@
     <section class="footer--left">
 
 
-      <p><span translate="FOOTER_1">Free, open-source, client-side interface for generating Nuko wallets &amp; more. Interact with the Nekonium blockchain easily &amp; securely. Double-check the URL ( .com ) before unlocking your wallet.</span></p>
+      <p><span translate="FOOTER_1">Free, open-source, client-side interface for generating Nuko wallets &amp; more. Interact with the Nekonium blockchain easily &amp; securely. Double-check the URL ( .site ) before unlocking your wallet.</span></p>
 
       <p> &copy; MyEtherWallet &copy; ROZ </p>
 

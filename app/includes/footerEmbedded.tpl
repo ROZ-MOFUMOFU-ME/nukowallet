@@ -1,9 +1,9 @@
 <footer>
   <div class="container">
     <p>
-      <a href="https://www.nukowallet.com" target="_blank" rel="noopener">NukoWallet.com</a>:
+      <a href="https://wallet.nekonium.site/" target="_blank" rel="noopener">NukoWallet.com</a>:
 
-      Free, open-source, client-side interface for generating Nekonium wallets &amp; more. Interact with the Nekonium blockchain easily &amp; securely. Double-check the URL ( .com ) before unlocking your wallet.
+      Free, open-source, client-side interface for generating Nekonium wallets &amp; more. Interact with the Nekonium blockchain easily &amp; securely. Double-check the URL ( .site ) before unlocking your wallet.
 
       Created by
       <a aria-label="kvhnuke's github" href="https://github.com/kvhnuke" target="_blank" rel="noopener">kvhnuke</a>
@@ -26,10 +26,10 @@
   "@context":"http://schema.org",
   "@type":"Organization",
   "@id":"#organization",
-  "url":"http://www.nukowallet.com/",
+  "url":"https://wallet.nekonium.site/",
   "name":"NukoWallet",
   //"logo":"https://myetherwallet.com/images/myetherwallet-logo-banner.png",
-  "description": "NukoWallet.com is a free, open-source, client-side interface for generating Ethereum wallets &amp; more. Interact with the Ethereum blockchain easily &amp; securely. Double-check the URL ( .com ) before unlocking your wallet.",
+  "description": "wallet.nekonium.site is a free, open-source, client-side interface for generating Ethereum wallets &amp; more. Interact with the Ethereum blockchain easily &amp; securely. Double-check the URL ( .site ) before unlocking your wallet.",
   "sameAs":[
   ]
 }
