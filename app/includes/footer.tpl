@@ -1,9 +1,9 @@
 <section class="pre-footer">
   <div class="container">
-    <p>NukoWallet.com is a client-side interface &amp; does not hold your keys. </p>
+    <p>wallet.nekonium.site is a client-side interface &amp; does not hold your keys. </p>
     <p> We cannot access accounts, recover keys, reset passwords, nor reverse transactions.</p>
     <p>
-      <span>If you go to a fake NukoWallet.com, they can. Check the URL. Use a bookmark.</span>
+      <span>If you go to a fake wallet.nekonium.site, they can. Check the URL. Use a bookmark.</span>
       <a role="link" tabindex="0" data-toggle="modal" data-target="#disclaimerModal"> You are responsible for your security. </a>
     </p>
   </div>
@@ -18,15 +18,14 @@
 
       <p><span translate="FOOTER_1">Free, open-source, client-side interface for generating Nuko wallets &amp; more. Interact with the Nekonium blockchain easily &amp; securely. Double-check the URL ( .com ) before unlocking your wallet.</span></p>
 
-      <p> &copy; MyEtherWallet &copy; Oldbeyond </p>
+      <p> &copy; MyEtherWallet &copy; ROZ </p>
 
     </section>
 
     <section class="footer--cent">
 
         <h5><i aria-hidden="true">(^._.^)ﾉ☆</i> Donations are always appreciated!</h5>
-        <p>NUKO: <span class="mono wrap">0x286b52330b188fde4faa9615601fbb2b3c43714e</span></p>
-	<p>ETH: <span class="mono wrap">0x5272a9a6611cAfca1B08896179699A74Fc4a5030</span></p>
+        <p>NUKO: <span class="mono wrap">0xa79bde46faab3c40632604728e9f2165b052581c</span></p>
 <!--
         <h5 ng-hide="curLang=='en'"> <i>🏅</i> <span translate="Translator_Desc"> Thank you to our translators </span></h5>
         <p ng-hide="curLang=='en'">
@@ -42,7 +41,7 @@
     <section class="footer--righ">
 
      <p><a role="link" tabindex="0" data-toggle="modal" data-target="#disclaimerModal"> Disclaimer </a></p>
- <!--    <p><a href="http://www.nukowallet.com/signmsg.html" target="_blank" rel="noopener" role="link" tabindex="0">
+ <!--    <p><a href="https://wallet.nekonium.site/signmsg.html" target="_blank" rel="noopener" role="link" tabindex="0">
         Sign Message
       </a></p> -->
 

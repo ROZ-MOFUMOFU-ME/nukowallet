@@ -151,7 +151,7 @@ globalFuncs.postDelay = 300;
 globalFuncs.kdf = "scrypt";
 globalFuncs.defaultTxGasLimit = 21000;
 globalFuncs.defaultTokenGasLimit = 200000;
-globalFuncs.donateAddress = "0x5272a9a6611cAfca1B08896179699A74Fc4a5030";
+globalFuncs.donateAddress = "0xDB1100abaC7B5630941a6D538a7061Ec45527251";
 globalFuncs.isNumeric = function(n) {
     return !isNaN(parseFloat(n)) && isFinite(n);
 };
@@ -167,8 +167,8 @@ globalFuncs.stripTags = function(str) {
     return str;
 };
 globalFuncs.checkAndRedirectHTTPS = function() {
-    var host = "nukowallet.com";
-    var hostw = "http://www.oldbeyond.com";
+    var host = "wallet.nekonium.site";
+    var hostw = "https://www.mofumofu.me";
     var path = window.location.pathname;
     if (host == window.location.host) window.location = hostw + path;
 };

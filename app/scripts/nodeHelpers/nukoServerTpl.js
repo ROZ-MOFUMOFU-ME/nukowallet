@@ -1,6 +1,6 @@
 'use strict';
 var mewServer = function() {}
-mewServer.prototype.SERVERURL = "http://nuko.oldbeyond.com:8333";
+mewServer.prototype.SERVERURL = "https://wallet.nekonium.site:8293";
 mewServer.prototype.config = {
     headers: {
         'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8'

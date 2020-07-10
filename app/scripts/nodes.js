@@ -19,10 +19,22 @@ nodes.customNodeObj = {
     'lib': null
 };
 nodes.nodeList = {
+    'nukowallet': {
+        'name': 'wallet.nekonium.site',
+        'blockExplorerTX': 'https://explorer.nekonium.site/tx/[[txHash]]',
+        'blockExplorerAddr': 'https://explorer.nekonium.site/addr/[[address]]',
+        'type': nodes.nodeTypes.NUKO,
+        'eip155': true,
+        'chainId': 1,
+        'tokenList': require('./tokens/nukoTokens.json'),
+        'abiList': require('./abiDefinitions/nukoAbi.json'),
+        'service': 'SSL',
+        'lib': new nodes.customNode('https://wallet.nekonium.site', '8293')
+    },
     'nuko': {
         'name': 'ROZ#2',
-        'blockExplorerTX': 'https://nekonium.github.io/proxy/beproxy.html?type=tx&v=[[txHash]]',
-        'blockExplorerAddr': 'https://nekonium.github.io/proxy/beproxy.html?type=addr&v=[[address]]',
+        'blockExplorerTX': 'https://explorer.nekonium.site/tx/[[txHash]]',
+        'blockExplorerAddr': 'https://explorer.nekonium.site/addr/[[address]]',
         'type': nodes.nodeTypes.NUKO,
         'eip155': true,
         'chainId': 1,
@@ -33,8 +45,8 @@ nodes.nodeList = {
     },
     'nuko1': {
         'name': 'ROZ#3',
-        'blockExplorerTX': 'https://nekonium.github.io/proxy/beproxy.html?type=tx&v=[[txHash]]',
-        'blockExplorerAddr': 'https://nekonium.github.io/proxy/beproxy.html?type=addr&v=[[address]]',
+        'blockExplorerTX': 'https://explorer.nekonium.site/tx/[[txHash]]',
+        'blockExplorerAddr': 'https://explorer.nekonium.site/addr/[[address]]',
         'type': nodes.nodeTypes.NUKO,
         'eip155': true,
         'chainId': 1,
@@ -45,8 +57,8 @@ nodes.nodeList = {
     },
     'nuko2': {
         'name': 'ROZ#1',
-        'blockExplorerTX': 'https://nekonium.github.io/proxy/beproxy.html?type=tx&v=[[txHash]]',
-        'blockExplorerAddr': 'https://nekonium.github.io/proxy/beproxy.html?type=addr&v=[[address]]',
+        'blockExplorerTX': 'https://explorer.nekonium.site/tx/[[txHash]]',
+        'blockExplorerAddr': 'https://explorer.nekonium.site/addr/[[address]]',
         'type': nodes.nodeTypes.NUKO,
         'eip155': true,
         'chainId': 1,
@@ -57,8 +69,8 @@ nodes.nodeList = {
     },
     'nuko3': {
         'name': 'Ohac#1',
-        'blockExplorerTX': 'https://nekonium.github.io/proxy/beproxy.html?type=tx&v=[[txHash]]',
-        'blockExplorerAddr': 'https://nekonium.github.io/proxy/beproxy.html?type=addr&v=[[address]]',
+        'blockExplorerTX': 'https://explorer.nekonium.site/tx/[[txHash]]',
+        'blockExplorerAddr': 'https://explorer.nekonium.site/addr/[[address]]',
         'type': nodes.nodeTypes.NUKO,
         'eip155': true,
         'chainId': 1,
@@ -69,8 +81,8 @@ nodes.nodeList = {
     },
     'nuko4': {
         'name': 'nww#1',
-        'blockExplorerTX': 'https://nekonium.github.io/proxy/beproxy.html?type=tx&v=[[txHash]]',
-        'blockExplorerAddr': 'https://nekonium.github.io/proxy/beproxy.html?type=addr&v=[[address]]',
+        'blockExplorerTX': 'https://explorer.nekonium.site/tx/[[txHash]]',
+        'blockExplorerAddr': 'https://explorer.nekonium.site/addr/[[address]]',
         'type': nodes.nodeTypes.NUKO,
         'eip155': true,
         'chainId': 1,
@@ -81,8 +93,8 @@ nodes.nodeList = {
     },
     'nuko5': {
         'name': 'namuyang#1',
-        'blockExplorerTX': 'https://nekonium.github.io/proxy/beproxy.html?type=tx&v=[[txHash]]',
-        'blockExplorerAddr': 'https://nekonium.github.io/proxy/beproxy.html?type=addr&v=[[address]]',
+        'blockExplorerTX': 'https://explorer.nekonium.site/tx/[[txHash]]',
+        'blockExplorerAddr': 'https://explorer.nekonium.site/addr/[[address]]',
         'type': nodes.nodeTypes.NUKO,
         'eip155': true,
         'chainId': 1,
@@ -93,8 +105,8 @@ nodes.nodeList = {
     },
     'nuko6': {
         'name': 'oldbeyond',
-        'blockExplorerTX': 'https://nekonium.github.io/proxy/beproxy.html?type=tx&v=[[txHash]]',
-        'blockExplorerAddr': 'https://nekonium.github.io/proxy/beproxy.html?type=addr&v=[[address]]',
+        'blockExplorerTX': 'https://explorer.nekonium.site/tx/[[txHash]]',
+        'blockExplorerAddr': 'https://explorer.nekonium.site/addr/[[address]]',
         'type': nodes.nodeTypes.NUKO,
         'eip155': true,
         'chainId': 1,

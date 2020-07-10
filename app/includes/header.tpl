@@ -2,9 +2,9 @@
 <html lang="en" ng-app="mewApp">
 <head>
 <meta charset="utf-8">
-<title>NukoWallet.com</title>
-<link rel="canonical" href="http://www.nukowallet.com" />
-<meta name="description" content="NukoWallet.com is a free, open-source, client-side interface for generating Nekonium wallets &amp; more. Interact with the Nekonium blockchain easily &amp; securely. Double-check the URL ( .com ) before unlocking your wallet.">
+<title>wallet.nekonium.site</title>
+<link rel="canonical" href="https://wallet.nekonium.site" />
+<meta name="description" content="wallet.nekonium.site is a free, open-source, client-side interface for generating Nekonium wallets &amp; more. Interact with the Nekonium blockchain easily &amp; securely. Double-check the URL ( .com ) before unlocking your wallet.">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="css/etherwallet-master.min.css">
 <script type="text/javascript" src="js/etherwallet-static.min.js"></script>
@@ -20,23 +20,23 @@
 <meta name="msapplication-config" content="/images/fav/browserconfig.xml">
 <meta name="theme-color" content="#1d6986">
 <meta name="keywords" content= "nekonium,wallet,nuko"/>
-<meta property="og:url" content="http://www.nukowallet.com" />
-<meta property="og:title" content="NukoWallet.com" />
+<meta property="og:url" content="https://wallet.nekonium.site" />
+<meta property="og:title" content="wallet.nekonium.site" />
 <meta property="og:image" content="/images/nukowallet-logo-banner.png" />
 <meta property="og:image" content="/images/myetherwallet-logo-banner.png" />
 <meta property="og:image" content="/images/myetherwallet-logo.png" />
 <meta property="og:image" content="/images/myetherwallet-logo-square.png" />
 <meta property="og:image" content="/images/myetherwallet-banner-fun.jpg" />
-<meta property="og:description" content="NukoWallet.com is a free, open-source, client-side interface for generating Nekonium wallets &amp; more. Interact with the Nekonium blockchain easily &amp; securely. Double-check the URL ( .com ) before unlocking your wallet." />
-<script type='application/ld+json'>{"@context":"http://schema.org","@type":"Organization","@id":"#organization","url":"http://www.nukowallet.com/","name":"NukoWallet",
-"logo":"https://myetherwallet.com/images/myetherwallet-logo-banner2.png","description": "NukoWallet.com is a free, open-source, client-side interface for generating Nekonium wallets &amp; more. Interact with the Nekonium blockchain easily &amp; securely. Double-check the URL ( .com ) before unlocking your wallet.","sameAs":["http://www.nukowallet.com/"]}</script>
+<meta property="og:description" content="wallet.nekonium.site is a free, open-source, client-side interface for generating Nekonium wallets &amp; more. Interact with the Nekonium blockchain easily &amp; securely. Double-check the URL ( .com ) before unlocking your wallet." />
+<script type='application/ld+json'>{"@context":"http://schema.org","@type":"Organization","@id":"#organization","url":"https://wallet.nekonium.site/","name":"NukoWallet",
+"logo":"https://myetherwallet.com/images/myetherwallet-logo-banner2.png","description": "wallet.nekonium.site is a free, open-source, client-side interface for generating Nekonium wallets &amp; more. Interact with the Nekonium blockchain easily &amp; securely. Double-check the URL ( .com ) before unlocking your wallet.","sameAs":["https://wallet.nekonium.site/"]}</script>
 </head>
 <body>
 <header class="{{curNode.name}} {{curNode.service}} {{curNode.service}} nav-index-{{gService.currentTab}}" aria-label="header" ng-controller='tabsCtrl' >
   <section class="header-branding">
     <section class="container">
       @@if (site === 'mew' ) {
-        <a class="brand" href="http://www.nukowallet.com/" aria-label="Go to homepage">
+        <a class="brand" href="https://wallet.nekonium.site/" aria-label="Go to homepage">
           <img src="images/nukowallet-logo-banner.png"   height="64px" width="245px" alt="NukoWallet" />
         </a>
       }
