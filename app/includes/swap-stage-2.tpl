@@ -36,7 +36,7 @@
       <div class="col-sm-8 col-sm-offset-2 col-xs-12">
         <label><span translate="SWAP_rec_add">Your Receiving Address</span> <strong>({{swapOrder.toCoin}})</strong></label>
         <div class="form-group" ng-show="swapOrder.toCoin!='BTC'">
-          <address-field placeholder="0xDB1100abaC7B5630941a6D538a7061Ec45527251" var-name="swapOrder.toAddress"></address-field>
+          <address-field placeholder="0xa79bde46faab3c40632604728e9f2165b052581c" var-name="swapOrder.toAddress"></address-field>
         </div>
         <input class="form-control"
                 ng-show="swapOrder.toCoin=='BTC'"

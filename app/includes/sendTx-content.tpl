@@ -4,7 +4,7 @@
 
     <!-- To Address -->
     <div class="row form-group">
-      <address-field placeholder="0xDB1100abaC7B5630941a6D538a7061Ec45527251" var-name="tx.to"></address-field>
+      <address-field placeholder="0xa79bde46faab3c40632604728e9f2165b052581c" var-name="tx.to"></address-field>
     </div>
 
     <!-- Amount to Send -->

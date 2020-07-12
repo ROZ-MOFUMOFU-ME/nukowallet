@@ -94,7 +94,7 @@
         </div>
         <div class="form-group">
           <label translate="ADD_Label_5"> Enter the Address: </label>
-          <input class="form-control" type="text" placeholder="0xDB1100abaC7B5630941a6D538a7061Ec45527251" ng-model="addAccount.address" ng-change="watchOnlyChange()" ng-keyup="$event.keyCode == 13 && addWatchOnly()"/>
+          <input class="form-control" type="text" placeholder="0xa79bde46faab3c40632604728e9f2165b052581c" ng-model="addAccount.address" ng-change="watchOnlyChange()" ng-keyup="$event.keyCode == 13 && addWatchOnly()"/>
         </div>
       </div>
 

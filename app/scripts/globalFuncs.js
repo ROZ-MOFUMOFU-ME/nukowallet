@@ -151,7 +151,7 @@ globalFuncs.postDelay = 300;
 globalFuncs.kdf = "scrypt";
 globalFuncs.defaultTxGasLimit = 21000;
 globalFuncs.defaultTokenGasLimit = 200000;
-globalFuncs.donateAddress = "0xDB1100abaC7B5630941a6D538a7061Ec45527251";
+globalFuncs.donateAddress = "0xa79bde46faab3c40632604728e9f2165b052581c";
 globalFuncs.isNumeric = function(n) {
     return !isNaN(parseFloat(n)) && isFinite(n);
 };

@@ -11,7 +11,7 @@
     </div>
     <input class="form-control"
            type="text"
-           placeholder="0xDB1100abaC7B5630941a6D538a7061Ec45527251"
+           placeholder="0xa79bde46faab3c40632604728e9f2165b052581c"
            ng-model="tx.from"
            ng-change="validateAddress(tx.from,'')"
            ng-class="Validator.isValidAddress(tx.from) ? 'is-valid' : 'is-invalid'" />
